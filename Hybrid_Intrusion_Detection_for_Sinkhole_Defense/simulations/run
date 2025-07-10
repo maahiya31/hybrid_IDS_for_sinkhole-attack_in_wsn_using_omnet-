@@ -1,0 +1,4 @@
+#!/bin/sh
+cd `dirname $0`
+../src/hybrid_intrusion_detection_for_sinkhole_defense -n .:../src $*
+# for shared lib, use: opp_run -l ../src/hybrid_intrusion_detection_for_sinkhole_defense -n .:../src $*
